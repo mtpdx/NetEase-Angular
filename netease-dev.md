@@ -25,3 +25,17 @@ ng g module pages
 ng g module services
 ```
 
+
+
+### 1.1. 首页
+
+```
+ng g module pages/home --routing
+
+ng g component pages/home
+
+ng g service services/home
+
+ng g component pages/home/components/wy-carousel
+```
+
