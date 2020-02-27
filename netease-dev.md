@@ -54,5 +54,21 @@ ng g module share/wy-ui
 ng g component share/wy-ui/single-sheet
 
 ng g pipe share/play-count
+
+ng g service services/singer
+```
+
+
+
+### 2.1 播放器
+
+```
+ng g m share/wy-ui/wy-player
+
+ng g c share/wy-ui/wy-player
+
+ng g s services/sheet
+
+ng g s services/song
 ```
 
